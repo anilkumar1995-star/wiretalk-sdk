@@ -1,0 +1,41 @@
+{
+  "name": "@wiretalk/react-native-chat",
+  "version": "1.0.0",
+  "description": "Wiretalk live chat WebView SDK for React Native",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilkumar1995-star/wiretalk-sdk.git",
+    "directory": "react-native"
+  },
+  "bugs": {
+    "url": "https://github.com/anilkumar1995-star/wiretalk-sdk/issues"
+  },
+  "homepage": "https://github.com/anilkumar1995-star/wiretalk-sdk/tree/main/react-native",
+  "keywords": [
+    "wiretalk",
+    "chat",
+    "webview",
+    "support",
+    "react-native",
+    "live-chat"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.72",
+    "react-native-webview": ">=13"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

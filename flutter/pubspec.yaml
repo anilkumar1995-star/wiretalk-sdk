@@ -1,0 +1,13 @@
+name: wiretalk_chat
+description: Wiretalk live chat WebView SDK for Flutter
+version: 1.0.0
+publish_to: none
+repository: https://github.com/anilkumar1995-star/wiretalk-sdk/tree/main/flutter
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0

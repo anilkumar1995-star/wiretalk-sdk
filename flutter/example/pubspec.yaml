@@ -1,0 +1,17 @@
+name: wiretalk_demo
+description: Wiretalk Flutter SDK demo app
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+  wiretalk_chat:
+    path: ../
+
+flutter:
+  uses-material-design: true
