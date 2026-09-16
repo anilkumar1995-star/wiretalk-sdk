@@ -1,0 +1,32 @@
+{
+  "name": "wiretalk-remote-helper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Wiretalk Remote Helper — shares the Windows desktop and accepts agent remote control.",
+  "main": "main.js",
+  "author": "Wiretalk",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir --win",
+    "dist": "cross-env CSC_IDENTITY_AUTO_DISCOVERY=false electron-builder --win portable"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "electron": "^34.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.wiretalk.remotehelper",
+    "productName": "Wiretalk Remote Helper",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": ["portable"],
+      "artifactName": "WiretalkRemoteHelper-${version}.exe",
+      "signAndEditExecutable": false
+    }
+  }
+}
